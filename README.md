@@ -8,6 +8,7 @@ Based on https://github.com/bnb/bitandbang and https://dev.to/wuz/setting-up-a-n
 
 ```
 git clone https://github.com/cerico/terminal-card
+cd terminal-card
 rm .git
 git init
 npm install
