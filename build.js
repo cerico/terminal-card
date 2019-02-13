@@ -23,7 +23,7 @@ const data = {
   twitter: chalk.hex('#ffffff')('https://twitter.com/') + chalk.hex('#ff757d')('permuu'),
   npm: chalk.hex('#ffffff')('https://npmjs.com/') + chalk.hex('#ff757d')('~garethrobertlee'),
   github: chalk.hex('#ffffff')('https://github.com/') + chalk.hex('#ff757d')('cerico'),
-  linkedin: chalk.white('https://linkedin.com/in/') + chalk.blue('garethrobertlee'),
+  linkedin: chalk.cyan('https://soundcloud.com/') + chalk.hex('#5ffa68')('crcvch'),
   web: chalk.cyan('https://diagnostics.yesmat.es'),
   blog: chalk.cyan('https://cerico.github.io'),
   npx: chalk.hex('#ffffff')('npx') + ' ' + chalk.hex('ffffff')('cerico'),
@@ -32,7 +32,7 @@ const data = {
   labelTwitter: chalk.white.bold('    Twitter:'),
   labelnpm: chalk.white.bold('        npm:'),
   labelGitHub: chalk.white.bold('     GitHub:'),
-  labelLinkedIn: chalk.white.bold('   LinkedIn:'),
+  labelLinkedIn: chalk.white.bold(' Soundcloud:'),
   labelWeb: chalk.white.bold('        Web:'),
   labelBlog: chalk.white.bold('       Blog:'),
   labelCard: chalk.white.bold('       Card:')
@@ -59,7 +59,7 @@ const output = heading + // data.name + data.handle
                twittering + newline + // data.labelTwitter + data.twitter
                npming + newline + // data.labelnpm + data.npm
                githubing + newline + // data.labelGitHub + data.github
-              //  linkedining + newline + // data.labelLinkedIn + data.linkedin
+               linkedining + newline + // data.labelLinkedIn + data.linkedin
                webing + newline + // data.labelWeb + data.web
                bloging + newline + newline + 
                carding // data.labelCard + data.npx
